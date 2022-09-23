@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import {Loc8rDataService} from "../loc8r-data.service";
 
 export interface Location{
-  _id: string,
+  id: string,
   name: string,
   distance: number,
   address: string,
@@ -28,6 +28,7 @@ export class HomeListComponent implements OnInit {
 
   ngOnInit(): void {
     this.getLocations();
+    console.log(this.locations)
   }
 
 }

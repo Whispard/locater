@@ -18,7 +18,7 @@ export class Loc8rDataService {
     return this.http
               .get(url)
               .toPromise()
-      .then(respomse => respomse as Location[])
+      .then(response => response as Location[])
       .catch(this.handleError)
   }
 
