@@ -1,6 +1,16 @@
 # locater
 MEAN app to find nearby shops
 
+# Technology Used:
+- Node
+- Express (For API & Site) & PUG (Template Engine)
+- Angular (Dynamic Frontend)
+- mongoose & MongoDB
+- Node-fetch 
+- requests (API Requests)
+
+#Features:
+
 ### gives available nearby shops within given distance:
 ![image](https://user-images.githubusercontent.com/78078515/192096170-a935c668-4004-4815-b23a-640583661e46.png)
 
@@ -9,14 +19,6 @@ MEAN app to find nearby shops
 
 ### Easily Add review with name and rating
 ![image](https://user-images.githubusercontent.com/78078515/192096293-22ddacf4-a8a0-4025-8590-4c540e0257aa.png)
-
-# Technology Used:
-- Node
-- Express (For API & Site) & PUG (Template Engine)
-- Angular (Dynamic Frontend)
-- mongoose & MongoDB
-- Node-fetch 
-- requests (API Requests)
 
 # Installation
 ```
